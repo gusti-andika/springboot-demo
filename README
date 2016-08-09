@@ -1,0 +1,25 @@
+== Repository REST API with springboot, cxf and hibernate
+
+The sample uses Maven. It can be built and run from the command line:
+
+----
+$ mvn
+----
+
+To execute unit test and build jar:
+
+-----
+$ mvn clean package
+----
+
+Execute rest with swagger-ui:
+
+go to http://localhost:8080/api/api-docs?url=/api/swagger.json
+
+
+H2 Console:
+
+h2 console can be access through http://localhost:8080/h2-console
+Change the JDBC URL value to jdbc:h2:mem:repository
+
+
